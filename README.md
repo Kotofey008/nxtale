@@ -1,4 +1,4 @@
-# NXtale (Undertale 2.3)
+# Codename NXtale (Undertale 2.3)
 
 > A spaghetti-code rewrite of UNDERTALE in GameMaker Studio 2.3+
 > Now with extra bugs, bonus content, and questionable design decisions!
