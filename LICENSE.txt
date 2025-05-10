@@ -1,0 +1,20 @@
+MIT License (Modified for Fan Projects)
+
+Copyright (c) Kotik-ocelotik (Kotofey008 / MrKotoCraft)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software **for educational and non-commercial purposes only**, 
+subject to the following conditions:
+
+1. This project is an unofficial fan-made remake of the game UNDERTALE.
+2. UNDERTALE and all related assets are the property of Toby Fox.
+3. This project is not affiliated with, endorsed, or approved by Toby Fox.
+4. No part of this project may be sold or used for commercial purposes.
+5. If the rights holder requests removal, the project and all copies must be deleted immediately.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE 
+AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
