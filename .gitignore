@@ -1,0 +1,34 @@
+# Ignore GameMaker cache and builds
+.gitattributes
+.idea/
+*.yypz
+*.yyz
+*.zip
+*.exe
+*.dll
+*.dmg
+*.apk
+*.webm
+
+# GameMaker temporary folders
+.gmlcache/
+.gmx/
+.gm6/
+.gm81/
+.gmproj/
+config/
+build/
+output/
+
+# GameMaker temporary files
+*.log
+*.temp
+*.tmp
+*.bak
+*.backup
+*_backup.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini

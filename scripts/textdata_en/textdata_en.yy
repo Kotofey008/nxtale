@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"textdata_en",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"textdata_en",
+  "parent":{
+    "name":"Disabled",
+    "path":"folders/Disabled.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_view_get",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_view_get",
+  "parent":{
+    "name":"Скрипты",
+    "path":"folders/Скрипты.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

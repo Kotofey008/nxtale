@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_depth",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_depth",
+  "parent":{
+    "name":"Скрипты",
+    "path":"folders/Скрипты.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

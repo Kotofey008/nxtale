@@ -1,0 +1,42 @@
+English
+-------
+
+END USER LICENSE AGREEMENT APPLIES TO ALL USE OF "UNTERDALE"
+
+IMPORTANT: Please carefully read this End-User License Agreement ("EULA") before installing or using the UNTERDALE (“Game”), created by SilverDog (“Developer”).
+
+1. License
+Developer grants you a non-exclusive, non-transferable License to use the Game in accordance with the terms of EULA.
+
+2. Liability
+Developer does not warrant that the operation of the Game will be uninterrupted or error free or that errors can be corrected. You install and use the Game at your own risk and in no event will Developer be liable to you for any loss or damage of any kind (except personal injury or death arising from Developer's negligence) including lost profits or other consequential loss arising from the use of or inability to use the Game or from errors or deficiencies in it whether caused by negligence or otherwise.
+
+3. Term
+This License will end automatically if you breach any of the terms.
+When this License ends you must stop all use of the Game and destroy and erase any copies you have.
+
+
+Click "ACCEPT" and accept these terms to install and use this Game. If you do not accept them terms you may not continue with the installation and you must not install, use or run this software on this or any other computer.
+
+
+
+
+Русский
+-------
+
+ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ ПРИМЕНИМО К ЛЮБОМУ ИСПОЛЬЗОВАНИЮ "UNTERDALE
+
+ВАЖНО: Пожалуйста, внимательно прочитайте настоящее Лицензионное Соглашение Пользователя (далее - "Соглашение") перед установкой или использованием игры Unterdale ("Игра"), созданной компанией SilverDog ("Разработчик"). Установка или использование Игры означает ваше полное и безоговорочное принятие условий данного Соглашения.
+
+1. Лицензия
+Разработчик предоставляет вам неисключительную, непередаваемую лицензию на использование Игры в соответствии с условиями данного Соглашения.
+
+2. Отказ от гарантий
+Игра предоставляется "как есть", без каких-либо гарантий. Разработчик не несет ответственности за любые убытки или повреждения, возникшие в результате использования Игры.
+
+3. Прекращение действия Соглашения
+Разработчик имеет право прекратить действие данного Соглашения и лицензии на Игру в случае вашего несоблюдения его условий.
+
+
+
+Нажимая "СОГЛАСЕН" ("ACCEPT"), вы соглашаетесь с условиями Соглашения для установки и использования Игры. Если вы не согласны с условиями Соглашения, вы не можете продолжить установку и обязаны удалить уже установленные на этом или любом другом устройсте копии Игры.

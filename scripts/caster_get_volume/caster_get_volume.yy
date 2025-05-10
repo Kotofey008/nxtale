@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"caster_get_volume",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"caster_get_volume",
+  "parent":{
+    "name":"Скрипты",
+    "path":"folders/Скрипты.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

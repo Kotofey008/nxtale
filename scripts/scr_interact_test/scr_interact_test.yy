@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_interact_test",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_interact_test",
+  "parent":{
+    "name":"Скрипты",
+    "path":"folders/Скрипты.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"snd_play",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"snd_play",
+  "parent":{
+    "name":"Скрипты",
+    "path":"folders/Скрипты.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

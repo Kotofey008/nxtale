@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_test",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.072562,
+  "name":"snd_test",
+  "parent":{
+    "name":"Звуки",
+    "path":"folders/Звуки.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_test.ogg",
+  "type":0,
+  "volume":1.0,
+}

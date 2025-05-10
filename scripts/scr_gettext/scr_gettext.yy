@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_gettext",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_gettext",
+  "parent":{
+    "name":"Disabled",
+    "path":"folders/Disabled.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

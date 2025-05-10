@@ -1,0 +1,7 @@
+To use this package, you just need the "obj_joystick_move_controller".
+
+There are several important things about it:
+In the create event, there are a fez variables that can be configurated:
+controller_radius defines the radius in pixels of the joystick. With bigger radius, you have more control over the speed (its proportional)
+handle_radius defines the radius of the handle of the joystick. This affects only the visuals, nothing more
+controlled_instance defines the controlled instance (or objetcs) that will be moved. If you want to move only one instance of an object, you should specifiy the ID of the instance.

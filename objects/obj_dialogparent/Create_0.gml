@@ -1,0 +1,1 @@
+global.myinteract = 0

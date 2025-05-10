@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"TextFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"TextFunctions",
+  "parent":{
+    "name":"Скрипты",
+    "path":"folders/Скрипты.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

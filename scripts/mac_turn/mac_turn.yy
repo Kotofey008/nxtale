@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"mac_turn",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mac_turn",
+  "parent":{
+    "name":"Скрипты",
+    "path":"folders/Скрипты.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
