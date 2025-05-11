@@ -1,4 +1,4 @@
-# Codename NXtale (Undertale 2.3)
+# UnlosTale (Undertale 2.3)
 
 > A spaghetti-code rewrite of UNDERTALE in GameMaker Studio 2.3+
 > Now with extra bugs, bonus content, and questionable design decisions!
@@ -14,7 +14,7 @@
 
 ## ❓ What is this?
 
-**Undertale 2.3** (a.k.a. **NXtale**) is an unofficial remake of the original **UNDERTALE**, rewritten from scratch in **GameMaker Studio 2.3+**.
+**Undertale 2.3** (a.k.a. **UnlosTale** or **Codename NXtale**) is an unofficial remake of the original **UNDERTALE**, rewritten from scratch in **GameMaker Studio 2.3+**.
 This project was created for educational and research purposes — to better understand UNDERTALE's internal logic and to provide a base for modifications and fan content.
 
 ⚠️ *This project contains bugs, unstable features, and chaotic code — you've been warned!*
