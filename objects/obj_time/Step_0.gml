@@ -1,4 +1,4 @@
-///@description Quit Functionality
+///@description Quit+ Functionality
 if (canquit == 1)
 {
     if (quit > 40)
@@ -8,3 +8,18 @@ if (canquit == 1)
     }
 }
 
+if instance_exists(obj_mainchara)
+{
+	charx = string(round(obj_mainchara.x))
+	chary = string(round(obj_mainchara.y))
+}
+else if instance_exists(obj_newchara)
+{
+	charx = string(round(obj_newchara.x))
+	chary = string(round(obj_newchara.y))
+}
+else
+{
+	charx = "NaN"
+	chary = "NaN"
+}

@@ -33,15 +33,17 @@ if keyboard_check_pressed(ord("1"))
         ini_write_real("CONFIG", "analog_scale", analog_scale)
         ini_write_real("CONFIG", "joystick_type", joystick_type)
         ini_write_real("CONFIG", "controls_opacity", controls_opacity)
+		ini_write_real("CONFIG", "plus_hide", plus_hide)
         ini_close()
         black_fade = 0
         text_black_fade = 0
-        edit = 0
+        edit = 4
     }
 }
 if (edit == 0)
     return;
-	
+
+
 virtual_key_delete(virtual_key_up)
 virtual_key_delete(virtual_key_down)
 //virtual_key_delete(virtual_key_left)
@@ -55,6 +57,12 @@ virtual_key_delete(virtual_key_c)
 //virtual_key_delete(virtual_key_analog)
 //virtual_key_delete(virtual_key_analogp)
 //scr_add_keys()
+if edit >= 4
+{
+	event_user(0)
+	edit = 0
+}
+
 if keyboard_check(ord("}"))
 {
     zx = device_mouse_x_to_gui(0) - 19.5 * button_scale
@@ -82,7 +90,7 @@ if (device_mouse_x_to_gui(0) >= 459.5 && device_mouse_y_to_gui(0) >= 75 && devic
 }
 if (device_mouse_x_to_gui(0) >= 531.5 && device_mouse_y_to_gui(0) >= 75 && device_mouse_x_to_gui(0) <= 541.5 && device_mouse_y_to_gui(0) <= 93 && mouse_check_button_pressed(mb_left))
 {
-    if (button_scale < 3)
+    if (button_scale < 4)
         button_scale += 0.1
 }
 if (device_mouse_x_to_gui(0) >= 459.5 && device_mouse_y_to_gui(0) >= 121 && device_mouse_x_to_gui(0) <= 469.5 && device_mouse_y_to_gui(0) <= 139 && mouse_check_button_pressed(mb_left))
@@ -143,7 +151,7 @@ if (device_mouse_x_to_gui(0) >= 241 && device_mouse_y_to_gui(0) >= 412.25 && dev
     xy = 280
     cx = 610
     cy = 220
-    button_scale = 2.5
+    button_scale = 3.5
     analog_scale = 3.3
     analog_posx = -42
     analog_posy = 232.5

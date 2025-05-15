@@ -10,6 +10,6 @@ if (async_load[? "id"] = global.roomselect)
 	}
 	else
 	{
-	show_message("Incorrect room name! Please, make sure you are not inputting a number or use capitalization. \"Room_Example\" is not \"room_example\", which will work correctly.")
+	show_message("Incorrect room name! Make sure you're not using outdated numeric names (like '1') or incorrect capitalization. For example, 'Room_Example' is not the same as 'room_example', which is the correct format.")
 	}
 }
