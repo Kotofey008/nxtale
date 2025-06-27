@@ -1,3 +1,34 @@
+if global.buttonsreset = 1
+{
+    zx = 510
+    zy = 340
+    xx = 560
+    xy = 280
+    cx = 610
+    cy = 220
+    global.button_scale = 3.5
+    analog_scale = 3.3
+    analog_posx = -42
+    analog_posy = 232.5
+    joystick_type = 0
+    global.controls_opacity = 0.5
+    plus_hide = 0
+	global.buttonsreset = 0
+}
+
+button_scale = global.button_scale
+controls_opacity = global.controls_opacity
+plus_hide = global.showdebugbuttons
+
+
+
+
+
+
+
+
+if legacy = 1 // will be removed as soon as possible
+{
 if keyboard_check_pressed(ord("1"))
 {
     edit += 1
@@ -41,7 +72,9 @@ if keyboard_check_pressed(ord("1"))
     }
 }
 if (edit == 0)
+{
     return;
+}
 
 
 virtual_key_delete(virtual_key_up)
@@ -158,4 +191,5 @@ if (device_mouse_x_to_gui(0) >= 241 && device_mouse_y_to_gui(0) >= 412.25 && dev
     joystick_type = 0
     controls_opacity = 0.5
     plus_hide = 0
+}
 }

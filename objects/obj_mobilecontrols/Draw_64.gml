@@ -1,8 +1,9 @@
 /// @description Virtual Keys sprites
 draw_sprite_ext(spr_btn_exit, keyboard_check(vk_escape), exitx, exity, button_scale, button_scale, 0, c_white, controls_opacity)
+//draw_sprite_ext(spr_btn_exit, keyboard_check(ord("1")), settingsx, settingsy, button_scale, button_scale, 0, c_white, controls_opacity)
 draw_sprite_ext(spr_pixblk, 0, 0, 0, 620, 480, 0, c_white, black_fade)
 
-if room != room_settings
+if room != room_settings {if room !=  room_settingsm
 {
 draw_sprite_ext(spr_btn_z, keyboard_check(vk_enter), zx, zy, button_scale, button_scale, 0, c_white, controls_opacity)
 draw_sprite_ext(spr_btn_x, keyboard_check(vk_shift), xx, xy, button_scale, button_scale, 0, c_white, controls_opacity)
@@ -12,9 +13,15 @@ if global.menuopen = 1
 	draw_sprite_ext(spr_btn_x, keyboard_check(vk_up), 40, cy, button_scale, button_scale, 0, c_white, controls_opacity)
 	draw_sprite_ext(spr_btn_c, keyboard_check(vk_down), 40, xy, button_scale, button_scale, 0, c_white, controls_opacity)
 	}
-}
+}}
 
 if room = room_settings
+{
+draw_sprite_ext(spr_btn_x, keyboard_check(vk_up), 40, cy, button_scale, button_scale, 0, c_white, controls_opacity)
+draw_sprite_ext(spr_btn_c, keyboard_check(vk_down), 40, xy, button_scale, button_scale, 0, c_white, controls_opacity)
+draw_sprite_ext(spr_btn_z, keyboard_check(vk_enter), zx, zy, button_scale, button_scale, 0, c_white, controls_opacity)
+}
+if room = room_settingsm
 {
 draw_sprite_ext(spr_btn_x, keyboard_check(vk_up), 40, cy, button_scale, button_scale, 0, c_white, controls_opacity)
 draw_sprite_ext(spr_btn_c, keyboard_check(vk_down), 40, xy, button_scale, button_scale, 0, c_white, controls_opacity)

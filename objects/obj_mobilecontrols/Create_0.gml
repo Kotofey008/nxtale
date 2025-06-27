@@ -8,13 +8,14 @@ else
     settings_font = fnt_main
     settings_num_x = 502
 }
+legacy = 0
 zx = 510
 zy = 340
 xx = 560
 xy = 280
 cx = 610
 cy = 220
-button_scale = 3.5
+global.button_scale = 3.5
 analog_scale = 3.3
 analog_posx = -42
 analog_posy = 232.5
@@ -37,7 +38,7 @@ roomby = 5
 edit = 0
 black_fade = 0
 text_black_fade = 0
-controls_opacity = 0.5
+global.controls_opacity = 0.5
 plus_hide = 0
 if file_exists("touchconfig.ini")
 {
@@ -50,10 +51,12 @@ if file_exists("touchconfig.ini")
     cy = ini_read_real("CONFIG", "cy", cy)
     analog_posx = ini_read_real("CONFIG", "analog_posx", analog_posx)
     analog_posy = ini_read_real("CONFIG", "analog_posy", analog_posy)
-    button_scale = ini_read_real("CONFIG", "button_scale", button_scale)
+    global.button_scale = ini_read_real("CONFIG", "button_scale", global.button_scale)
     analog_scale = ini_read_real("CONFIG", "analog_scale", analog_scale)
     joystick_type = ini_read_real("CONFIG", "joystick_type", joystick_type)
-    controls_opacity = ini_read_real("CONFIG", "controls_opacity", controls_opacity)
+    global.controls_opacity = ini_read_real("CONFIG", "controls_opacity", global.controls_opacity)
     plus_hide = ini_read_real("CONFIG", "plus_hide", plus_hide)
     ini_close()
 }
+button_scale = global.button_scale
+controls_opacity = global.controls_opacity

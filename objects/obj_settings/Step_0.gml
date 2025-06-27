@@ -38,9 +38,14 @@ if keyboard_check_pressed(menu_confirmation_buttom) or keyboard_check_pressed(or
 			break;
 		case 1:	// case of the second one 
 			// add code of what to do when confirming this item
+			if global.language = "en"
+			global.language = "ru"
+			else
+			global.language = "en"
 			break;
 		case 2:	// case of the thrid one 
 			// add code of what to do when confirming this item
+			room_goto(room_settingsm)
 			break;
 		case 3: // you get it
 			// add code of what to do when confirming this item
@@ -54,11 +59,12 @@ if global.language = "ru"
 	title_text = "НАСТРОЙКИ"
 	ds_list_replace(menu, 0, "ВЫХОД")
 	ds_list_replace(menu, 1, "Язык")
+	ds_list_replace(menu, 2, "Мобильные Кнопки")
 }
 else
 {
 	title_text = "SETTINGS"
 	ds_list_replace(menu, 0, "EXIT")
 	ds_list_replace(menu, 1, "Language")
-	ds_list_replace(menu, 2, working_directory)
+	ds_list_replace(menu, 2, "Mobile Buttons")
 }

@@ -45,6 +45,10 @@ if os_type != os_unknown
 	global.handle = "-m"
 }
 global.debugscreen = 0
+global.showdebugbuttons = 0
+global.buttonsreset = 0
+global.button_scale = 0
+global.buttonsopacity = 0
 global.rtm = 0
 global.facing = 0
 global.phasing = 0

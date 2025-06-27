@@ -2,7 +2,7 @@
 
 // create the list for the menu
 menu = ds_list_create();	// list of menu items
-ds_list_add(menu, "EXIT", "Language", "TEST STRING", "TEST STRING");	// the menu items, add or remove items to customize
+ds_list_add(menu, "EXIT", "Language", "Mobile Buttons Menu", "TEST STRING");	// the menu items, add or remove items to customize
 
 // menu selected
 selected = 0;	// number of the list above that start selected (the first one is 0, the second one is 1 and so on)
@@ -58,6 +58,6 @@ if (os_type == os_ios)
 	version += "-i"
 if (global.rtm == 0)
 	version += "-insider"
-cred_text = "UNDERTALE v" + version + " (C) Toby Fox 2015-2025"
+cred_text = "UNDERTALE v" + version + " (C) Toby Fox 2015-" + string(current_year)
 cred_color = c_grey
 cred_alpha = 1

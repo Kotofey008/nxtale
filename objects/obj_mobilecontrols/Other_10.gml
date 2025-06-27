@@ -1,5 +1,7 @@
 /// @description Virtual Keys readding
+/*
 virtual_key_exit = virtual_key_add(exitx, exity, (16 * button_scale), (16 * button_scale), vk_escape)
+//virtual_key_settings = virtual_key_add(settingsx, settingsy, (16 * button_scale), (16 * button_scale), ord("1"))
 
 if room != room_settings //or room_naming
 {
@@ -19,3 +21,4 @@ if room = room_settings
 	virtual_key_down = virtual_key_add(40, xy, (16 * button_scale), (16 * button_scale), vk_down)
 	virtual_key_z = virtual_key_add(zx, zy, (16 * button_scale), (16 * button_scale), vk_enter)
 }
+*/
