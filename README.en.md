@@ -6,8 +6,8 @@
 <details>
 <summary>🌐 Select language / Выберите язык</summary>
 
-- 🇷🇺 [Русский (основной)](./README.md)
-- 🇺🇸 [English](./README.en.md)
+- 🇷🇺 [Русский](./README.md)
+- 🇺🇸 [English (You are here)](./README.en.md)
 
 </details>
 
@@ -36,7 +36,7 @@ This project was created for educational and research purposes — to better und
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Undertale-2.3.git
+   git clone https://github.com/Kotofey008/nxtale.git
    ```
 2. Open the project in GMS **2024.2.0.132+**
    *(Stability is NOT guaranteed on earlier versions!)*
